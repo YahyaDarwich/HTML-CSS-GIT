@@ -1,1 +1,29 @@
 /* Add your CSS code below */
+a {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+.message:first-child {
+  opacity: 0.7;
+}
+
+.message__time {
+  font-size: 0.9rem;
+}
+
+.messages p {
+  line-height: 2rem;
+}
+
+.message--unread {
+  border-left: solid 2px blue;
+}
+
+/*
+OR i can use this to add left border
+
+.message.message--unread{
+border-left: solid 2px blue;
+}
+*/
