@@ -1,6 +1,16 @@
 /* Try different box model properties below */
 .pages__page {
-  border: 1px solid #4491db;
-  border-radius: 4px;
+  border-radius: 0px;
   background: #fff;
+  display: list-item;
+  width: 435px;
+  height: 30px;
+  list-style: none;
+  padding: 5px;
+  margin: 3px 8px 2px 8px;
+  color: black;
+}
+
+.pages {
+  height: 300px;
 }
